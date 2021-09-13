@@ -605,7 +605,6 @@
 		  .btn-flip{
 			opacity: 1;
 			outline: 0;
-
 			line-height: 40px;
 			position: relative;
 			text-align: center;
@@ -617,6 +616,7 @@
 			font-size: 14px;
 			font-weight: 400, bold;
 			text-transform: uppercase;
+
 
 			&:hover{
 			  
@@ -644,6 +644,7 @@
 				background-color: var(--color-front);
 				content: attr(data-front);
 				transform: translateY(0) rotateX(0);
+				border-radius: 10px 10px 10px 10px;
 			  }
 
 			&:after{ // BACK
@@ -659,6 +660,7 @@
 			  font-size: 24px;
 			  content: attr(data-back);
 			  transform: translateY(-50%) rotateX(90deg);
+			  border-radius: 10px 10px 10px 10px;
 			}
 		  }
 
